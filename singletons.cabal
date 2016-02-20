@@ -54,7 +54,7 @@ library
         -- ghc7.8
   exposed-modules:    Data.Singletons,
                       Data.Singletons.CustomStar,
-                      Data.Singletons.TypeRepStar,
+                      -- Data.Singletons.TypeRepStar,
                       Data.Singletons.TH,
                       Data.Singletons.Prelude,
                       Data.Singletons.Prelude.Base,
