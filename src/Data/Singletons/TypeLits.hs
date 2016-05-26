@@ -16,7 +16,7 @@
 {-# OPTIONS_GHC -fno-warn-orphans #-}
 
 module Data.Singletons.TypeLits (
-  Nat, Symbol,
+  Sing(SNat), Nat, Symbol,
   SNat, SSymbol, withKnownNat, withKnownSymbol,
   Error, ErrorSym0, ErrorSym1, sError,
   KnownNat, natVal, KnownSymbol, symbolVal,
